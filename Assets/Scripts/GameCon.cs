@@ -21,7 +21,7 @@ public class GameCon : MonoBehaviour
 
     void Update()
     {
-        //print(answerField.text);
+        
 
     }
 }

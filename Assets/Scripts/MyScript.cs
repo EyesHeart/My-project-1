@@ -7,29 +7,15 @@ public class MyScript : MonoBehaviour
     int num;
     void Start()
     {
-        for (int num = 1; num <= 100; num++)
+        PrintNum();
+    }
+    void PrintNum()
+    {
+        int n = 1;
+        while (n <= 100)
         {
-            print(num);
-        }
-
-        for (int num = 1; num <= 100; num++)
-        {
-            if (num % 2 == 0)
-            {
-                print(num);
-            }
-        }
-        float x = 1.0f;
-        float r = circle(x);
-
-
-        float circle(float x)
-        {
-            float result;
-            x = 8.0f;
-            result = 3.14f * (x * x);
-            print(result);
-            return result;
+            print(n);
+            n = n + 2;
         }
     }
 }
